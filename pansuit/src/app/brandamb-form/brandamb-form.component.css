@@ -18,6 +18,6 @@
    font-size: 1.313rem;
 }
 
-#brandamd-form input, label{
+#brandamd-form input, label, textarea{
    display: block;
 }
