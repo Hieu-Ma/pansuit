@@ -7,13 +7,17 @@
    color: #C92570;
 }
 
-#brandam-form {
+#brandamd-form {
    margin-top: 1.5rem;
    width: 28.5rem;
    margin: auto;
-   text-align: center;
+   text-align: left;
 }
 
-#brandam-form h3 {
+#brandamd-form h3 {
    font-size: 1.313rem;
+}
+
+#brandamd-form input, label{
+   display: block;
 }
