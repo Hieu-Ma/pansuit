@@ -1,0 +1,19 @@
+#title {
+   font-size: 2.625rem;
+   text-align: center;
+}
+
+#title span {
+   color: #C92570;
+}
+
+#brandam-form {
+   margin-top: 1.5rem;
+   width: 28.5rem;
+   margin: auto;
+   text-align: center;
+}
+
+#brandam-form h3 {
+   font-size: 1.313rem;
+}
