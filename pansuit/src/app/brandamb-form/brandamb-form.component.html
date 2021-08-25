@@ -1,47 +1,64 @@
-<h1 id="title">Apply to become a <span> Brand Ambassador </span></h1>
+
+<h1 id="title">Apply to become a <span>Brand Ambassador</span></h1>
+
 <form id="brandamd-form">
 
-   <h3 >please fill out the forms below to be considered</h3>
+   <h3>Please fill out the forms below to be considered</h3>
+   <h5 id="brandamd-form--required">Required*</h5>
 
-   <label> Full Name
-      <input type="text" required>
+   <!-- Inputs for basic information -->
+   <label for="name" class="brandamd-form__basic">
+       Full Name<span aria-hidden="true" class="required">*</span>
    </label>
-   <label> Email
-      <input type="text" required>
+   <input type="text" name="name" class="brandamd-form__basic--input" required>
+   
+   <label for="email" class="brandamd-form__basic">
+       Email<span aria-hidden="true" class="required">*</span>
    </label>
-   <label> Phone Number
-      <input type="text" required>
-   </label>
+   <input type="text" name="email" class="brandamd-form__basic--input" required>
 
-   <label> Add your Resume
-      <input type="file">
+   <label for="phone-number" class="brandamd-form__basic">
+       Phone Number<span aria-hidden="true" class="required">*</span>
    </label>
-   <label> Add your Cover Letter
-      <input type="file">
-   </label>
+   <input type="text" name="phone-number" class="brandamd-form__basic--input" required>
 
-   <label> Tell us how you would promote our brand on your social media platforms? 
+   <!-- Inputs for Resume/Cover Letter -->
+   <label for="resume" class="brandamd-form__resume">
+       Add your Resume<span aria-hidden="true" class="required">*</span>
+   </label>
+   <input type="file" name="resume" class="brandamd-form__resume--input">
+
+   <label for="cover-letter" class="brandamd-form__resume">
+       Add your Cover Letter<span aria-hidden="true" class="required">*</span>
+   </label>
+   <input type="file" name="cover-letter" class="brandamd-form__resume--input">
+
+   <!-- Inputs for questions -->
+   <label class="brandamd-form__questions"> Tell us how you would promote our brand on your social media platforms? 
             Our product and services include: shop (merch), jobs, events, membership, 
-            money, lifestyle blog, mobile app.
-      <!-- <input type="textarea"> -->
-      <textarea></textarea>
-   </label>
+            money, lifestyle blog, mobile app.<span aria-hidden="true" class="required">*</span>
+         </label>
+   <textarea></textarea>
 
-   <label> List other Brands have you worked with:
-      <textarea></textarea>
+   <label class="brandamd-form__questions">
+       List other Brands have you worked with:<span aria-hidden="true" class="required">*</span>
    </label>
+   <textarea></textarea>
 
-   <label> What are your social media handles: instagram, Facebook, twitter, tiktok, snapchat
-      <textarea></textarea>
+   <label for="q1" class="brandamd-form__questions">
+       What are your social media handles: instagram, Facebook, twitter, tiktok, snapchat<span aria-hidden="true" class="required">*</span>
    </label>
+   <textarea name="q1"></textarea>
 
-   <label> What was your customer acquisition rate with other Brands you worked with?*
-      <textarea></textarea>
+   <label for="q2" class="brandamd-form__questions">
+       What was your customer acquisition rate with other Brands you worked with?<span aria-hidden="true" class="required">*</span>
    </label>
-
-   <label> Why do you think you would be an outstanding Pantsuit Professionals Brand Ambassador?*
-      <textarea></textarea>
+   <textarea name="q2"></textarea>
+   
+   <label for="q3" class="brandamd-form__questions">
+       Why do you think you would be an outstanding Pantsuit Professionals Brand Ambassador?<span aria-hidden="true" class="required">*</span>
    </label>
+   <textarea name="q3"></textarea>
 
    <button type="submit"> Submit Application </button>
 </form>
