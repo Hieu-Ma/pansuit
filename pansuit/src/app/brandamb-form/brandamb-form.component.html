@@ -1,64 +1,67 @@
 
 <h1 id="title">Apply to become a <span>Brand Ambassador</span></h1>
 
-<form id="brandamd-form">
+<form id="brandamb-form">
 
    <h3>Please fill out the forms below to be considered</h3>
-   <h5 id="brandamd-form--required">Required*</h5>
+   <h5 id="brandamb-form--required">Required*</h5>
 
    <!-- Inputs for basic information -->
-   <label for="name" class="brandamd-form__basic">
+   <label for="name" class="brandamb-form__basic">
        Full Name<span aria-hidden="true" class="required">*</span>
    </label>
-   <input type="text" name="name" class="brandamd-form__basic--input" required>
+   <input type="text" name="name" class="brandamb-form__basic--input" required>
    
-   <label for="email" class="brandamd-form__basic">
+   <label for="email" class="brandamb-form__basic">
        Email<span aria-hidden="true" class="required">*</span>
    </label>
-   <input type="text" name="email" class="brandamd-form__basic--input" required>
+   <input type="text" name="email" class="brandamb-form__basic--input" required>
 
-   <label for="phone-number" class="brandamd-form__basic">
+   <label for="phone-number" class="brandamb-form__basic">
        Phone Number<span aria-hidden="true" class="required">*</span>
    </label>
-   <input type="text" name="phone-number" class="brandamd-form__basic--input" required>
+   <input type="text" name="phone-number" class="brandamb-form__basic--input" required>
 
    <!-- Inputs for Resume/Cover Letter -->
-   <label for="resume" class="brandamd-form__resume">
+   <!-- Not entirely sure if the type="file" and accept="" is correct for this website -->
+   <label for="resume" class="brandamb-form__resume">
        Add your Resume<span aria-hidden="true" class="required">*</span>
    </label>
-   <input type="file" name="resume" class="brandamd-form__resume--input">
+   <input type="file" name="resume" class="brandamb-form__resume--input">
 
-   <label for="cover-letter" class="brandamd-form__resume">
+   <label for="cover-letter" class="brandamb-form__resume">
        Add your Cover Letter<span aria-hidden="true" class="required">*</span>
    </label>
-   <input type="file" name="cover-letter" class="brandamd-form__resume--input">
+   <input type="file" name="cover-letter" class="brandamb-form__resume--input">
 
    <!-- Inputs for questions -->
-   <label class="brandamd-form__questions"> Tell us how you would promote our brand on your social media platforms? 
+   <label for="q1" class="brandamb-form__questions"> Tell us how you would promote our brand on your social media platforms? 
             Our product and services include: shop (merch), jobs, events, membership, 
             money, lifestyle blog, mobile app.<span aria-hidden="true" class="required">*</span>
          </label>
-   <textarea></textarea>
+   <textarea name="q1" id="q1"></textarea>
 
-   <label class="brandamd-form__questions">
+   <label for="q2" class="brandamb-form__questions">
        List other Brands have you worked with:<span aria-hidden="true" class="required">*</span>
    </label>
-   <textarea></textarea>
+   <textarea name="q2" id="q2"></textarea>
 
-   <label for="q1" class="brandamd-form__questions">
+   <label for="q3" class="brandamb-form__questions">
        What are your social media handles: instagram, Facebook, twitter, tiktok, snapchat<span aria-hidden="true" class="required">*</span>
    </label>
-   <textarea name="q1"></textarea>
+   <textarea name="q3" id="q3"></textarea>
 
-   <label for="q2" class="brandamd-form__questions">
+   <label for="q4" class="brandamb-form__questions">
        What was your customer acquisition rate with other Brands you worked with?<span aria-hidden="true" class="required">*</span>
    </label>
-   <textarea name="q2"></textarea>
+   <textarea name="q4" id="q4"></textarea>
    
-   <label for="q3" class="brandamd-form__questions">
+   <label for="q5" class="brandamb-form__questions">
        Why do you think you would be an outstanding Pantsuit Professionals Brand Ambassador?<span aria-hidden="true" class="required">*</span>
    </label>
-   <textarea name="q3"></textarea>
+   <textarea name="q5" id="q5"></textarea>\
 
-   <button type="submit"> Submit Application </button>
+   <div id="brandamb-form__submit-container">
+       <button type="submit"> Submit Application </button>
+   </div>
 </form>

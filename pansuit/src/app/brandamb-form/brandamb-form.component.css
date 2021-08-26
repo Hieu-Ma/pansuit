@@ -1,54 +1,112 @@
 #title {
    font-size: 2.625rem;
    text-align: center;
+   font-family: Regular;
 }
 
 #title span {
    color: #C92570;
 }
 
-#brandamd-form {
+#brandamb-form {
    margin-top: 1.5rem;
    width: 28.5rem;
    margin: auto;
    text-align: left;
+   font-family: Regular;
 }
 
-#brandamd-form h3 {
+#brandamb-form h3 {
    font-size: 1.313rem;
    margin-bottom: 8px;
 }
 
-#brandamd-form input, label, textarea{
+#brandamb-form input, label, textarea{
    display: block;
 }
 
-#brandamd-form input, textarea {
+#brandamb-form input, textarea {
    margin-bottom: 32px;
+   opacity: 1;
+   font-size: 17px;
 }
 
 .required {
    color: red;
  }
 
- #brandamd-form--required {
+ #brandamb-form--required {
     color: red;
     margin-top: 0px;
     margin-bottom: 24px;
  }
 
- .brandamd-form__basic{
+/* Styling for Name, Email, and Phone Number  */
+
+ .brandamb-form__basic{
     margin-bottom: 5px;
  }
 
- .brandamd-form__basic input {
-    border-color: #C6C6C6;
+ .brandamb-form__basic--input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
  }
 
- .brandamd-form__resume {
-   margin-bottom: 5px;
+/* Styling for Resume and Cover Letter */
+
+ .brandamb-form__resume {
+   margin-bottom: 24px;
  }
 
- .brandamd-form__questions {
+ .brandamb-form__questions {
     margin-bottom: 5px;
  }
+
+.brandamb-form__resume--input::-webkit-file-upload-button{
+   background-color: white;
+   color: #C82570;
+   border: 1px solid #C82570;
+   width: 183px;
+   height: 40px;
+   font-family: bold;
+   font-size: 18px;
+}
+
+/* Styling for questions */
+
+#brandamb-form textarea {
+   border: 1px solid #C6C6C6;
+   border-radius: 4px;
+   resize: none;
+   font-size: 17px;
+}
+
+#q1, #q2, #q3 {
+   width: 100%;
+   height: 447px;
+}
+
+#q4, #q5 {
+   width: 100%;
+   height: 152px;
+}
+
+/* Submit Application button */
+
+#brandamb-form__submit-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+#brandamb-form__submit-container button {
+   background-color: white;
+   color: #C82570;
+   border: 1px solid #C82570;
+   width: 183px;
+   height: 40px;
+   font-family: bold;
+   font-size: 18px;
+}
