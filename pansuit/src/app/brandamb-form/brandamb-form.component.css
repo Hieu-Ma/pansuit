@@ -64,7 +64,7 @@
     margin-bottom: 5px;
  }
 
-.brandamb-form__resume--input::-webkit-file-upload-button{
+.brandamb-form__resume--input::-webkit-file-upload-button {
    background-color: white;
    color: #C82570;
    border: 1px solid #C82570;
@@ -72,6 +72,13 @@
    height: 40px;
    font-family: bold;
    font-size: 18px;
+   transition: background-color .2s, color .2s;
+   cursor: pointer;
+}
+
+.brandamb-form__resume--input::-webkit-file-upload-button:hover {
+   color:white;
+   background-color: #C82570;
 }
 
 /* Styling for questions */
@@ -102,11 +109,18 @@
 }
 
 #brandamb-form__submit-container button {
-   background-color: white;
-   color: #C82570;
+   background-color: #C82570;
+   color: white;
    border: 1px solid #C82570;
-   width: 183px;
-   height: 40px;
+   width: 210px;
+   height: 56px;
+   border-radius: 2px;
    font-family: bold;
    font-size: 18px;
+   transition: background-color .2s;
+   cursor: pointer;
+}
+
+#brandamb-form__submit-container button:hover {
+   background-color: #C93679;
 }
