@@ -1,7 +1,8 @@
 #title {
-   font-size: 2.625rem;
+   font-size: 42px;
    text-align: center;
    font-family: Regular;
+   margin-bottom: 24px;
 }
 
 #title span {
@@ -17,18 +18,20 @@
 }
 
 #brandamb-form h3 {
-   font-size: 1.313rem;
+   font-size: 21px;
    margin-bottom: 8px;
+   font-weight: lighter;
 }
 
 #brandamb-form input, label, textarea{
    display: block;
+   font-weight: lighter;
+   font-size: 21px;
 }
 
 #brandamb-form input, textarea {
    margin-bottom: 32px;
    opacity: 1;
-   font-size: 17px;
 }
 
 .required {
@@ -39,6 +42,8 @@
     color: red;
     margin-top: 0px;
     margin-bottom: 24px;
+    font-size: 21px;
+    font-weight: lighter;
  }
 
 /* Styling for Name, Email, and Phone Number  */
