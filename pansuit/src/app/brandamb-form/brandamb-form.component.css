@@ -1,13 +1,19 @@
-#title {
-   font-size: 42px;
+#brandamb-form__title__container {
+   display: flex;
+   justify-content: center;
+}
+
+#brandamb-form__title {
+   font-size: 2.625rem;
    text-align: center;
    font-family: Regular;
    margin-bottom: 24px;
 }
 
-#title span {
+#brandamb-form__title span {
    color: #C92570;
 }
+
 
 #brandamb-form {
    margin-top: 1.5rem;
@@ -36,38 +42,38 @@
 
 .required {
    color: red;
- }
+}
 
- #brandamb-form--required {
-    color: red;
-    margin-top: 0px;
-    margin-bottom: 24px;
-    font-size: 21px;
-    font-weight: lighter;
- }
+#brandamb-form--required {
+   color: red;
+   margin-top: 0px;
+   margin-bottom: 24px;
+   font-size: 21px;
+   font-weight: lighter;
+}
 
 /* Styling for Name, Email, and Phone Number  */
 
- .brandamb-form__basic{
-    margin-bottom: 5px;
- }
+.brandamb-form__basic{
+   margin-bottom: 5px;
+}
 
- .brandamb-form__basic--input {
-    width: 100%;
-    height: 56px;
-    border: 1px solid #C6C6C6;
-    border-radius: 4px;
- }
+.brandamb-form__basic--input {
+   width: 100%;
+   height: 56px;
+   border: 1px solid #C6C6C6;
+   border-radius: 4px;
+}
 
 /* Styling for Resume and Cover Letter */
 
- .brandamb-form__resume {
+.brandamb-form__resume {
    margin-bottom: 24px;
- }
+}
 
- .brandamb-form__questions {
-    margin-bottom: 5px;
- }
+.brandamb-form__questions {
+   margin-bottom: 5px;
+}
 
 .brandamb-form__resume--input::-webkit-file-upload-button {
    background-color: white;
@@ -123,9 +129,30 @@
    font-family: bold;
    font-size: 18px;
    transition: background-color .2s;
+   margin-top: 64px;
    cursor: pointer;
 }
 
 #brandamb-form__submit-container button:hover {
    background-color: #C93679;
+}
+
+/* Tablet Size */
+@media screen and (max-width: 768px){
+   #brandamb-form__title {
+      font-size: 32px;
+   }
+}
+
+
+/* Mobile Size */
+@media screen and (max-width: 360px){
+   #brandamb-form__title {
+      font-size: 32px;
+   }
+   #brandamb-form {
+      width: 16rem;
+      /* width: 100px; */
+      /* background-color: black; */
+   }
 }
