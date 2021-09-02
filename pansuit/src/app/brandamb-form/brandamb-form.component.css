@@ -144,7 +144,6 @@
    }
 }
 
-
 /* Mobile Size */
 @media screen and (max-width: 360px){
    #brandamb-form__title {
@@ -152,7 +151,5 @@
    }
    #brandamb-form {
       width: 16rem;
-      /* width: 100px; */
-      /* background-color: black; */
    }
 }
