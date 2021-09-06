@@ -137,6 +137,12 @@
    background-color: #C93679;
 }
 
+/* This is to move the No File Chosen by adding margin to the choose file button */
+
+input[type=file]::file-selector-button {
+   margin-right: 15px;
+ }
+
 /* Tablet Size */
 @media screen and (max-width: 768px){
    #brandamb-form__title {
