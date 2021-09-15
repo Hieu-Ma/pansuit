@@ -1,10 +1,22 @@
-#about-us__meet{
+/* Global styling for componenet */
+
+#about-us {
+   font-family: Regular;
+   display: flex;
+   justify-content: center;   
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+/* Styling for first componenet (Meet Pansuit Professionals) */
+
+#about-us__meet {
    display: flex;
    justify-content: center;
    align-items: center;
-   font-family: Regular;
+
    color: white;
-   font-size: 2.5rem;
+   font-size: 5rem;
 }
 
 #about-us__meet__img {
@@ -13,10 +25,34 @@
    color: white;
 }
 
-#about-us__meet h1{
+#about-us__meet h1 {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    margin: 0px;
+}
+
+/* Styling for second componenet (Our Mission) */
+
+#about-us__mission {
+   display: flex;
+   /* flex-wrap: wrap; */
+   flex-direction: column;
+   /* justify-content: center; */
+   /* align-items: center; */
+   justify-content: center;
+   align-items: center;
+   
+   height: 571px;
+}
+
+#about-us__mission h1 {
+   font-size: 56px;
+}
+
+#about-us__mission h3 {
+   font-size: 40px;
+   color: #CF4383;
+   text-align: center;
 }
