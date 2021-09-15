@@ -1,0 +1,22 @@
+#about-us__meet{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Regular;
+   color: white;
+   font-size: 2.5rem;
+}
+
+#about-us__meet__img {
+   position: relative;
+   text-align: center;
+   color: white;
+}
+
+#about-us__meet h1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: 0px;
+}
