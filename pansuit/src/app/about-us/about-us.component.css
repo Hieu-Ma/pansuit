@@ -14,9 +14,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-
    color: white;
-   font-size: 5rem;
 }
 
 #about-us__meet__img {
@@ -26,24 +24,22 @@
 }
 
 #about-us__meet h1 {
+   font-size: 80px;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    margin: 0px;
+   width: 100%;
 }
 
 /* Styling for second componenet (Our Mission) */
 
 #about-us__mission {
    display: flex;
-   /* flex-wrap: wrap; */
    flex-direction: column;
-   /* justify-content: center; */
-   /* align-items: center; */
    justify-content: center;
    align-items: center;
-   
    height: 571px;
 }
 
