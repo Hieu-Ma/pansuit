@@ -52,3 +52,30 @@
    color: #CF4383;
    text-align: center;
 }
+
+/* Styling for 4th component */
+
+#about-us__grid {
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-areas: 
+   "pic1 text1"
+   "text2 pic2";
+}
+
+#about-us__grid__1 {
+   grid-area: text1;
+}
+
+#about-us__grid__1 {
+   grid-area: pic1;
+   background-image: url("../../assets/images/Group 604.png");
+}
+
+#about-us__grid__1 {
+   grid-area: text2;
+}
+
+#about-us__grid__1 {
+   grid-area: pic2;
+}
