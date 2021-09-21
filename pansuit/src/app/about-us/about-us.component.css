@@ -68,7 +68,6 @@
    "text2 pic2";
    justify-items: flex-start;
    align-items: center;
-   /* width: 1150px; */
    width: 1190px;
    column-gap: 102px;
    row-gap: 240px;
@@ -112,4 +111,10 @@
    background-image: url("../../assets/images/Rectangle334.png");
    width: 500px;
    height: 500px;
+}
+
+/* Sizing for women group photo */
+
+#about-us__group-photo {
+
 }
