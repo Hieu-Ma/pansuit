@@ -55,27 +55,61 @@
 
 /* Styling for 4th component */
 
+#about-us__grid__container {
+   display: flex;
+   justify-content: center;
+}
+
 #about-us__grid {
    display: grid;
    grid-template-rows: auto;
    grid-template-areas: 
    "pic1 text1"
    "text2 pic2";
+   justify-items: flex-start;
+   align-items: center;
+   /* width: 1150px; */
+   width: 1190px;
+   column-gap: 102px;
+   row-gap: 240px;
 }
 
 #about-us__grid__1 {
    grid-area: text1;
 }
 
-#about-us__grid__1 {
-   grid-area: pic1;
-   background-image: url("../../assets/images/Group 604.png");
+#about-us__grid__1 h3 {
+   font-size: 56px;
+   margin: 0px;
 }
 
-#about-us__grid__1 {
+#about-us__grid__1 p {
+   font-size: 30px;
+}
+
+#about-us__grid__2 {
+   grid-area: pic1;
+   background-image: url("../../assets/images/Rectangle331.png");
+   width: 500px;
+   height: 500px;
+}
+
+#about-us__grid__3 {
    grid-area: text2;
 }
 
-#about-us__grid__1 {
+#about-us__grid__3 h3 {
+   font-size: 56px;
+   margin: 0px;
+}
+
+#about-us__grid__3 p {
+   font-size: 30px;
+}
+
+#about-us__grid__4 {
    grid-area: pic2;
+   background-image: url("../../assets/images/Rectangle334.png");
+   width: 500px;
+   height: 500px;
 }
