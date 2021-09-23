@@ -43,14 +43,21 @@
    height: 571px;
 }
 
+#about-us__mission h1, h3{
+   margin: 0px;
+}
+
 #about-us__mission h1 {
    font-size: 56px;
+   margin-top: 168px;
+   margin-bottom: 66px;
 }
 
 #about-us__mission h3 {
    font-size: 40px;
    color: #CF4383;
    text-align: center;
+   margin-bottom: 112px;
 }
 
 /* Styling for 4th component */
@@ -58,6 +65,7 @@
 #about-us__grid__container {
    display: flex;
    justify-content: center;
+   color: black;
 }
 
 #about-us__grid {
@@ -115,6 +123,42 @@
 
 /* Sizing for women group photo */
 
+#about-us__group-photo__container {
+   display: flex;
+   justify-content: center;
+   margin-top: 240px;
+}
+#about-us__group__container {
+   width: 100%;
+   height: auto;
+}
 #about-us__group-photo {
+   width: 100%;
+   height: 900px;
+   object-fit:cover;
+}
 
+/* our vision */
+
+#about-us__our-vision {
+   background-color: black;
+   height: 646px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#about-us__our-vision > h3, #about-us__our-vision > p{
+   color: white;
+   text-align: center;
+   margin: 0px;
+}
+
+#about-us__our-vision h3 {
+   font-size: 56px;
+   margin-bottom: 64px;
+}
+
+#about-us__our-vision p {
+   font-size: 30px;
 }
